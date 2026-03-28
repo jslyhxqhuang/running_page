@@ -1,0 +1,63 @@
+{
+  "resource_state": 2,
+  "athlete": {
+    "id": 10920812,
+    "resource_state": 1
+  },
+  "name": "晨間健行",
+  "distance": 9505.7,
+  "moving_time": 10130,
+  "elapsed_time": 17422,
+  "total_elevation_gain": 648.9,
+  "type": "Hike",
+  "sport_type": "Hike",
+  "id": 16026710419,
+  "start_date": "2025-10-04T02:06:52Z",
+  "start_date_local": "2025-10-04T10:06:52Z",
+  "timezone": "(GMT+08:00) Asia/Shanghai",
+  "utc_offset": 28800.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "achievement_count": 0,
+  "kudos_count": 0,
+  "comment_count": 0,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "map": {
+    "id": "a16026710419",
+    "summary_polyline": "cxf}DgrcxUdANfA@xBOrBe@R?hBR~B^nDAZIxBPRA^KbAq@h@q@fAcARIf@ALk@@UOmCBy@To@Z[t@uALO\\YZMdAEd@@|@m@d@OLMb@Kn@Fz@APE~@]JSXO]y@o@iAG_@?a@Uq@Ea@Ks@IUQWF{AH_@OOG_@D]GeAHU?MGq@BUOaAH_@EqBLaACc@BG?c@JQ`AaARAPW@IPA`@OHBIEFIFAFI@Kb@QZa@Rc@HAPJNFP@TSPGb@c@HSNMj@w@LOBHCUVg@d@W@KNMVc@bAk@Z_@Rg@f@s@PId@ODEbAOZ?DFLKd@I\\?pAd@F?R?PK\\CbADp@Kv@Hl@QRUVOL]Fm@CIe@w@YuAISUWM[CSDUVa@t@_AH?AUOEq@w@QAy@g@s@u@SCe@HUCmARa@VEFG\\@JKPQr@INo@h@{@Hm@T}@t@e@NIASr@STERDHCH]?EGI]S[@I]WFAGBF?AGBHI@@K?HAIZw@Ac@BIHE@SDU@_@?a@Ts@Qg@Ga@BqAIw@Jk@IS][m@Qy@CYIK@_@Xa@JaBGe@B[Le@AQG[[EEGSK?GSBKSuAQKuAa@mA@IDUX_@ZGCQJ[Fk@Ve@?m@K[DmAUq@Ae@TcAP]l@Kl@MN_@[q@sAq@a@i@u@]_@?UT{@i@iC_@cA[SMWMM[s@MMIQYQ{@[q@k@a@e@Ys@k@a@cAeACc@@KZ]b@cAJoA@JA`@Gd@a@z@]`@CH?b@UPWNw@P{Ab@o@v@m@PcAJg@?WRIPIbAOZAb@O\\k@l@C`@@TATCHGEFDYh@A`@I@KNo@EGCCKIAo@Pi@Z_AHYRSFCHKA[X]Da@Wk@WIAg@Pk@?_Be@S@yAkAUW@Ii@bACHeA~@eBjBi@`@q@x@HAEFSC_@Xe@t@q@j@gDbEYRoAhAQDY^c@Pw@f@cAdAsA`Cu@`Ao@fAAHFF@Tp@DdAPZHl@`@hBvBxAxAr@|@Xd@N`@p@nAj@dBp@nANn@Tf@v@xA`@l@^~@d@p@f@hAz@fAf@b@Zf@\\^L^d@h@Rf@VVRZBLfAzAbAvBBJNLJ^Zd@J|@RbAHz@H`@BXCTh@xD@d@NbA",
+    "resource_state": 2
+  },
+  "trainer": false,
+  "commute": false,
+  "manual": false,
+  "private": false,
+  "visibility": "followers_only",
+  "flagged": false,
+  "gear_id": null,
+  "start_latlng": [
+    31.170233,
+    119.463046
+  ],
+  "end_latlng": [
+    31.170396,
+    119.463165
+  ],
+  "average_speed": 0.938,
+  "max_speed": 2.859,
+  "has_heartrate": true,
+  "average_heartrate": 115.4,
+  "max_heartrate": 156.0,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": true,
+  "elev_high": 462.4,
+  "elev_low": 106.9,
+  "upload_id": 17108808782,
+  "upload_id_str": "17108808782",
+  "external_id": "DEFC6438-A4F7-4F77-9F02-886C2F6D247D.gpx",
+  "from_accepted_tag": false,
+  "pr_count": 0,
+  "total_photo_count": 0,
+  "has_kudoed": false
+}
