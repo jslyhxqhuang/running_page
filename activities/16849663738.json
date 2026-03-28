@@ -1,0 +1,63 @@
+{
+  "resource_state": 2,
+  "athlete": {
+    "id": 10920812,
+    "resource_state": 1
+  },
+  "name": "晨間步行",
+  "distance": 1308.4,
+  "moving_time": 933,
+  "elapsed_time": 961,
+  "total_elevation_gain": 25.0,
+  "type": "Walk",
+  "sport_type": "Walk",
+  "id": 16849663738,
+  "start_date": "2025-12-27T00:00:11Z",
+  "start_date_local": "2025-12-27T08:00:11Z",
+  "timezone": "(GMT+08:00) Asia/Shanghai",
+  "utc_offset": 28800.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "achievement_count": 0,
+  "kudos_count": 0,
+  "comment_count": 0,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "map": {
+    "id": "a16849663738",
+    "summary_polyline": "}`ywCm}bxQoAfBG?a@Yg@o@}@{@SMc@e@gAk@YMmA[QHMLIDQEQA_@EQMy@WKS]EGESYZLRVRBPF`@VZB^LDDTDHCBKPGHBHCH?f@NdAb@ZPdAr@NNPHbAbALPPJPBHENOP[",
+    "resource_state": 2
+  },
+  "trainer": false,
+  "commute": false,
+  "manual": false,
+  "private": false,
+  "visibility": "followers_only",
+  "flagged": false,
+  "gear_id": null,
+  "start_latlng": [
+    25.036488,
+    98.488731
+  ],
+  "end_latlng": [
+    25.037244,
+    98.489646
+  ],
+  "average_speed": 1.402,
+  "max_speed": 3.706,
+  "has_heartrate": true,
+  "average_heartrate": 97.5,
+  "max_heartrate": 110.0,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": true,
+  "elev_high": 1655.4,
+  "elev_low": 1624.8,
+  "upload_id": 17941464742,
+  "upload_id_str": "17941464742",
+  "external_id": "67B70B83-F426-489E-98D2-D7C4CDAFC084.gpx",
+  "from_accepted_tag": false,
+  "pr_count": 0,
+  "total_photo_count": 0,
+  "has_kudoed": false
+}
