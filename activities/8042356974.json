@@ -1,0 +1,63 @@
+{
+  "resource_state": 2,
+  "athlete": {
+    "id": 10920812,
+    "resource_state": 1
+  },
+  "name": "午後游泳",
+  "distance": 11.8,
+  "moving_time": 31,
+  "elapsed_time": 68,
+  "total_elevation_gain": 0.0,
+  "type": "Swim",
+  "sport_type": "Swim",
+  "device_name": "Garmin fēnix 5",
+  "id": 8042356974,
+  "start_date": "2022-09-08T09:40:39Z",
+  "start_date_local": "2022-09-08T17:40:39Z",
+  "timezone": "(GMT+08:00) Asia/Shanghai",
+  "utc_offset": 28800.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "achievement_count": 0,
+  "kudos_count": 0,
+  "comment_count": 0,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "map": {
+    "id": "a8042356974",
+    "summary_polyline": "amx~DgugxUtAT",
+    "resource_state": 2
+  },
+  "trainer": false,
+  "commute": false,
+  "manual": false,
+  "private": false,
+  "visibility": "followers_only",
+  "flagged": false,
+  "gear_id": null,
+  "start_latlng": [
+    31.423697909340262,
+    119.48388855904341
+  ],
+  "end_latlng": [
+    31.423261296004057,
+    119.48377590626478
+  ],
+  "average_speed": 0.382,
+  "max_speed": 0.242,
+  "average_temp": 33,
+  "has_heartrate": false,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": false,
+  "elev_high": 9.2,
+  "elev_low": 9.0,
+  "upload_id": 8606450882,
+  "upload_id_str": "8606450882",
+  "external_id": "garmin_ping_245072225142",
+  "from_accepted_tag": false,
+  "pr_count": 0,
+  "total_photo_count": 0,
+  "has_kudoed": false
+}
