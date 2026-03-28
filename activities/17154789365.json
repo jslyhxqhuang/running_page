@@ -1,0 +1,63 @@
+{
+  "resource_state": 2,
+  "athlete": {
+    "id": 10920812,
+    "resource_state": 1
+  },
+  "name": "晨間健行",
+  "distance": 2138.1,
+  "moving_time": 1930,
+  "elapsed_time": 2218,
+  "total_elevation_gain": 86.6,
+  "type": "Hike",
+  "sport_type": "Hike",
+  "id": 17154789365,
+  "start_date": "2026-01-23T22:59:05Z",
+  "start_date_local": "2026-01-24T06:59:05Z",
+  "timezone": "(GMT+08:00) Asia/Shanghai",
+  "utc_offset": 28800.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "achievement_count": 0,
+  "kudos_count": 0,
+  "comment_count": 0,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "map": {
+    "id": "a17154789365",
+    "summary_polyline": "kys~De|dxUb@XRHH?bAO`A]HCH@RFh@^PHHBPARCZORBPKFCFG?WBUHIPCNLF?f@HPL@KFGFCH@FDHRDG@UGILNGT?HP\\BT@j@LPH`@CVWt@@n@DVAJCHm@z@ITWXGTS\\YTS?i@FBJN^Dv@Kt@]jACVB`@EY?a@Z_AHk@DICWAk@S[UWc@UKAEFM^Wb@m@Ro@HGFo@FGFSGg@GSDYS_Aa@]CU?]Gy@o@@KDIu@MUUa@GI@GASKUYGCS]sBkCg@y@Ia@Rs@",
+    "resource_state": 2
+  },
+  "trainer": false,
+  "commute": false,
+  "manual": false,
+  "private": false,
+  "visibility": "followers_only",
+  "flagged": false,
+  "gear_id": null,
+  "start_latlng": [
+    31.402142,
+    119.470352
+  ],
+  "end_latlng": [
+    31.40214,
+    119.470401
+  ],
+  "average_speed": 1.108,
+  "max_speed": 2.139,
+  "has_heartrate": true,
+  "average_heartrate": 99.2,
+  "max_heartrate": 130.0,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": true,
+  "elev_high": 91.8,
+  "elev_low": 27.0,
+  "upload_id": 18249873203,
+  "upload_id_str": "18249873203",
+  "external_id": "004E3F15-F38E-4E1A-AF70-FD0A9FE55DE4.gpx",
+  "from_accepted_tag": false,
+  "pr_count": 0,
+  "total_photo_count": 0,
+  "has_kudoed": false
+}
