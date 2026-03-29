@@ -12,6 +12,12 @@ const standardizeCountryName = (country: string): string => {
   return country;
 };
 
+// Filter out runs shorter than 1km (distance is in meters)
+const MIN_DISTANCE_METERS = 1000;
+const filteredActivities = activities.filter(
+  (run) => run.distance >= MIN_DISTANCE_METERS
+);
+
 const useActivities = () => {
   const processedData = useMemo(() => {
     const cities: Record<string, number> = {};
@@ -20,7 +26,7 @@ const useActivities = () => {
     const countries: Set<string> = new Set();
     const years: Set<string> = new Set();
 
-    activities.forEach((run) => {
+    filteredActivities.forEach((run) => {
       const location = locationForRun(run);
 
       const periodName = titleForRun(run);
@@ -47,7 +53,7 @@ const useActivities = () => {
     const thisYear = yearsArray[0] || '';
 
     return {
-      activities,
+      activities: filteredActivities,
       years: yearsArray,
       countries: [...countries],
       provinces: [...provinces],
@@ -55,7 +61,7 @@ const useActivities = () => {
       runPeriod,
       thisYear,
     };
-  }, []); // Empty dependency array since activities is static
+  }, []); // Empty dependency array since filteredActivities is static
 
   return processedData;
 };
