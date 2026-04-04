@@ -96,7 +96,7 @@ jobs:
 
       - name: Run sync Strava script
         if: env.RUN_TYPE == 'strava'
-        run: python run_page/strava_sync.py ${{ secrets.STRAVA_CLIENT_ID }} ${{ secrets.STRAVA_CLIENT_SECRET }} ${{ secrets.STRAVA_CLIENT_REFRESH_TOKEN }}
+        run: python run_page/strava_sync.py ${{ secrets.STRAVA_CLIENT_ID }} ${{ secrets.STRAVA_CLIENT_SECRET }} ${{ secrets.STRAVA_CLIENT_REFRESH_TOKEN }} --only-run
 
       - name: Run sync Garmin script
         if: env.RUN_TYPE == 'garmin'
