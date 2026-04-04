@@ -64,7 +64,7 @@ class Generator:
                 filters = {"before": datetime.datetime.now(datetime.timezone.utc)}
 
         for activity in self.client.get_activities(**filters):
-            if self.only_run and activity.type != "Run":
+            if self.only_run and activity.type not in ("Run", "Trail Run"):
                 continue
             if IGNORE_BEFORE_SAVING:
                 if activity.map and activity.map.summary_polyline:
@@ -131,7 +131,7 @@ class Generator:
         # if sub_type is not in the db, just add an empty string to it
         query = self.session.query(Activity).filter(Activity.distance > 0.1)
         if self.only_run:
-            query = query.filter(Activity.type == "Run")
+            query = query.filter(Activity.type.in_(["Run", "Trail Run"]))
 
         activities = query.order_by(Activity.start_date_local)
         activity_list = []
