@@ -241,7 +241,9 @@ def main():
     if args.sport_type != "all":
         if args.sport_type == "running":
             # "running" includes both regular runs and trail runs
-            tracks = [track for track in tracks if track.type in ("running", "trail running")]
+            tracks = [
+                track for track in tracks if track.type in ("running", "trail running")
+            ]
         else:
             tracks = [track for track in tracks if track.type == args.sport_type]
 
