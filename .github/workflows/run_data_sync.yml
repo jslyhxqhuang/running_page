@@ -25,7 +25,7 @@ on:
       - requirements.txt
 
 env:
-  RUN_TYPE: strava
+  RUN_TYPE: garmin
   ATHLETE: jslyhxq
   TITLE: jslyhxq Running
   MIN_GRID_DISTANCE: 10
