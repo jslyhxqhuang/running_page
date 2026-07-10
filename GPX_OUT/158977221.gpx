@@ -1,0 +1,59 @@
+<gpx xmlns:ns3="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://www.garmin.com/xmlschemas/GpxExtensions/v3" creator="Garmin Connect" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/11.xsd">
+  <extensions>
+<distance>63.93</distance>
+<average_hr></average_hr>
+<average_speed>0.032999999821186066</average_speed>
+<start_time>2021-06-04T21:56:33+00:00</start_time>
+<end_time>2021-06-04T22:28:39.063000+00:00</end_time>
+<moving_time>1.0</moving_time>
+<elapsed_time>1980.811</elapsed_time>
+</extensions>
+<metadata>
+    <link href="connect.garmin.com">
+      <text>Garmin Connect</text>
+    </link>
+    <time>2021-06-04T21:56:33.000Z</time>
+  </metadata>
+  <trk>
+    <name>常州市 公开水域游泳</name>
+    <type>open_water_swimming</type>
+    <trkseg>
+      <trkpt lat="31.39581911265850067138671875" lon="119.42696814425289630889892578125">
+        <time>2021-06-04T21:56:36.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>25.0</ns3:atemp>
+            <ns3:cad>0</ns3:cad>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="31.39580679126083850860595703125" lon="119.426945932209491729736328125">
+        <time>2021-06-04T21:57:15.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>24.0</ns3:atemp>
+            <ns3:cad>0</ns3:cad>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="31.39350042678415775299072265625" lon="119.42321456037461757659912109375">
+        <time>2021-06-04T22:13:38.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>24.0</ns3:atemp>
+            <ns3:cad>0</ns3:cad>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="31.39350210316479206085205078125" lon="119.42321020178496837615966796875">
+        <time>2021-06-04T22:13:39.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>24.0</ns3:atemp>
+            <ns3:cad>0</ns3:cad>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
