@@ -25,7 +25,7 @@ on:
       - requirements.txt
 
 env:
-  RUN_TYPE: garmin
+  RUN_TYPE: garmin_cn
   ATHLETE: jslyhxq
   TITLE: jslyhxq Running
   MIN_GRID_DISTANCE: 10
@@ -104,7 +104,7 @@ jobs:
 
       - name: Run sync Garmin CN script
         if: env.RUN_TYPE == 'garmin_cn'
-        run: python run_page/garmin_sync.py ${{ secrets.GARMIN_SECRET_STRING_CN }} --is-cn
+        run: python run_page/garmin_sync.py ${{ secrets.GARMIN_SECRET_STRING }} --is-cn
 
       - name: Run sync Garmin to Strava
         if: env.RUN_TYPE == 'garmin_to_strava'
