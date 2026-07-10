@@ -464,7 +464,9 @@ if __name__ == "__main__":
             JSON_FILE,
             file_suffix="gpx",
             activity_title_dict=id2title,
+            only_run=is_only_running,  # 2026-07-10: 传 only_run
         )
     make_activities_file(
-        SQL_FILE, folder, JSON_FILE, file_suffix=file_type, activity_title_dict=id2title
+        SQL_FILE, folder, JSON_FILE, file_suffix=file_type, activity_title_dict=id2title,
+        only_run=is_only_running,  # 2026-07-10: 传 only_run
     )
