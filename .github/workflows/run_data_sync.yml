@@ -104,7 +104,7 @@ jobs:
 
       - name: Run sync Garmin CN script
         if: env.RUN_TYPE == 'garmin_cn'
-        run: python run_page/garmin_sync.py ${{ secrets.GARMIN_SECRET_STRING }} --is-cn
+        run: python run_page/garmin_sync.py ${{ secrets.GARMIN_SECRET_STRING }} --is-cn --only-run
 
       - name: Run sync Garmin to Strava
         if: env.RUN_TYPE == 'garmin_to_strava'
