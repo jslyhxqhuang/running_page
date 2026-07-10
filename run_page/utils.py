@@ -50,9 +50,15 @@ def to_date(ts):
 
 
 def make_activities_file(
-    sql_file, data_dir, json_file, file_suffix="gpx", activity_title_dict={}
+    sql_file,
+    data_dir,
+    json_file,
+    file_suffix="gpx",
+    activity_title_dict={},
+    only_run=False,  # 2026-07-10: 新增参数，让 garmin_sync 能传 only_run
 ):
     generator = Generator(sql_file)
+    generator.only_run = only_run  # 2026-07-10: 显式设，让 load() 过滤 Run + Trail Run
     generator.sync_from_data_dir(
         data_dir, file_suffix=file_suffix, activity_title_dict=activity_title_dict
     )
